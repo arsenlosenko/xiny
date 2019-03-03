@@ -11,5 +11,5 @@ then
     curl -s $URL$FILE_URL | less
 else
     echo "No data found for $LANGUAGE"
-    echo -e "Please run this script with any programming language as a parameter, like so:\n ./linym python"
+    echo -e "Please run this script with any programming language as a parameter, like so:\n ./xiny python"
 fi
