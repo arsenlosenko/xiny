@@ -6,15 +6,19 @@
 It's pretty straightforward:
 
 ```bash
-# using plain old bash
+# download script
+curl -O https://raw.githubusercontent.com/arsenlosenko/linym/master/linym
+
+# you can use plain old bash
 bash linym python
 
 # or make this file executable:
 chmod +x linym
 ./linym python
 
-# and go even further, and create alias, so it could be called from anywhere easily:
+# and go even further, by creating an alias, so it could be called from anywhere easily:
 alias linym="$PWD/linym"
 
+# and use it
 linym python
 ```
