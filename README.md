@@ -19,6 +19,10 @@ chmod +x xiny
 # and go even further, by creating an alias, so it could be called from anywhere easily:
 alias xiny="$PWD/xiny"
 
+# to make it usable throughout your system you can also copy executable into /usr/local/bin/ and /usr/bin/
+cp xiny /usr/bin/
+cp xiny /usr/local/bin/
+
 # and use it
 xiny python
 ```
